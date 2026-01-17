@@ -1,0 +1,46 @@
+[
+ {
+  "InstFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/fpga_top.sv",
+  "InstLine" : 1,
+  "InstName" : "fpga_top",
+  "ModuleFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/fpga_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "fpga_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/fpga_top.sv",
+    "InstLine" : 19,
+    "InstName" : "pll_inst",
+    "ModuleFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/fpga_top.sv",
+    "InstLine" : 32,
+    "InstName" : "driver_inst",
+    "ModuleFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/video_driver.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "video_driver"
+   },
+   {
+    "InstFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/fpga_top.sv",
+    "InstLine" : 44,
+    "InstName" : "uut_inst",
+    "ModuleFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/video_uut.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "video_uut",
+    "SubInsts" : [
+     {
+      "InstFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/video_uut.sv",
+      "InstLine" : 45,
+      "InstName" : "my_sprite",
+      "ModuleFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/ImageROM.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "image_rom"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/fpga_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/video_driver.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/video_uut.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/Users/alisonemilien/FPGA/ShapeAnimation/src/ImageROM.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/Users/alisonemilien/FPGA/ShapeAnimation/impl/temp/rtl_parser.result",
+ "Top" : "fpga_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
